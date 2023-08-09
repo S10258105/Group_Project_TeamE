@@ -5,8 +5,8 @@ def main():
     """
     - Function calls overhead_function(), coh_function() and profitloss_function() from their
       respective module
-    - Function identifies the category with highest percentage, calculates either cash deficit or cash surplus
-      and either net profit deficit or net profit surplus
+    - Function identifies the category with highest percentage, calculates either cash deficit or 
+    cash surplus and either net profit deficit or net profit surplus
     - No parameters required
     """
 
