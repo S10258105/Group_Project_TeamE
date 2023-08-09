@@ -1,11 +1,14 @@
+# Import the Path class from the pathlib module
 from pathlib import Path
+
+# Import the csv module for handling CSV files
 import csv
 
 def overhead_function():
     """
-    - Function calculates the highest overhead
+    - Function identifies the overhead category with the highest percentage
     - No parameters required
-
+    - Function reads data from Overheads.csv
     """
     # creates a Path object named file_path.
     # uses the Path.cwd() method to get the current working directory 

@@ -1,11 +1,15 @@
+# Import the Path class from the pathlib module
 from pathlib import Path
+
+# Import the csv module for handling CSV files
 import csv
 
 def coh_function():
     """
-    - Function calculates either cash deficit or highest cash surplus
+    - Function calculates cash deficits for each day with a deficit. 
+      In cases where there are no deficit days, it calculates the highest cash surplus.
     - No parameters required
-
+    - Function reads data from Cash_on_Hand.csv file
     """
    
     # creates the file path to the "Cash_on_Hand.csv" file located in the "csv_reports"

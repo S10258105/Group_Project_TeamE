@@ -1,11 +1,15 @@
+# Import the Path class from the pathlib module
 from pathlib import Path
+
+# Import the csv module for handling CSV files
 import csv
 
 def profitloss_function():
     """
-    - Function calculates either net profit deficit or highest net profit surplus
+    - Function calculates net profit deficits for each day with a deficit. 
+      In cases where there are no deficit days, it calculates the highest net profit surplus.
     - No parameters required
-
+    - Function reads data from Profit_and_Loss.csv file
     """
 
     # creates the file path to the "Profit_and_Loiss.csv" file located in the "csv_reports"
