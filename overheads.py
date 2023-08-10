@@ -53,7 +53,7 @@ def overhead_function():
 
     # Retrieves the overhead value from the first nested list in Overheads list
     # Overhead value is stored in the second element (index 1) of each nested list
-    # float() to ocnvert the value from string to float and assign it to the variable max_value.
+    # float() to convert the value from string to float and assign it to the variable max_value.
     max_value = float(Overheads[0][1])
 
     # Retrieves the category name from the first nested list in the Overheads list 
@@ -76,7 +76,7 @@ def overhead_function():
         if value > max_value:
 
         # If the current overhead value is greater than the current maximum overhead value, 
-        # max_value variable will store the new maximum overhead value
+        # max_value variable will store the new updated maximum overhead value
             max_value = value
 
         # max_category variable will store the category name associated with the new 

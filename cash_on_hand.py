@@ -76,7 +76,7 @@ def coh_function():
 
     # Calculates the deficit by subtracting the current day's cash amount from
     # the previous day's cash amount.
-    # Assign to defoicit variable
+    # Assign to deficit variable
             deficit = previous_cash - current_cash
 
     # Retrieves the day number of the current deficit day from the cash_on_hand list
